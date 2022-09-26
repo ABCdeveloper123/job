@@ -10,80 +10,47 @@
 
 
     <script src="https://kit.fontawesome.com/1b60de4f3f.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1b60de4f3f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" sizes="48x48" href="logo/New Project (18).jpg">
 </head>
 
-<body style="background-color: rgb(189, 227, 227)">
+<body style="background-color: ffff">
     <!--===============================================================================
                                            navbar
     ================================================================================= -->
-    <nav class="navbar  fixed-top" style="background-color: rgb(162, 239, 238)">
+    <nav class="navbar hadow p-3  bg-body rounded shadow-lg  mb-5 bg-body rounded"
+        style="background-color: rgb(255, 255, 255);">
         <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo/img-removebg-preview.png" alt="Logo" width="190" height="74"
+                    class="d-inline-block align-text-top">
 
-            <div><img src="logo/New_Project__19_-removebg-preview.png" alt="">
-                <a class="navbar-brand " href="#"></a>
-
-            </div>
-
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
-
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Air Ticket</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Book Flight </a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-
-
-                                Travel Info
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Travel Advisory
-                                    </a></li>
-                                <li><a class="dropdown-item" href="#">
-                                        News</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <div>
-                            <!-- <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Sing Up
-
-                                </a>
-                            </li> -->
-                        </div>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-primary" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
+            </a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="container info">Travel info</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contant</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="index1.html">Login</a>
+                </li>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary " type="submit" type="button">Search</button>
+                </form>
+            </ul>
         </div>
     </nav>
     <!--===================================================================================
                                      banner
 ===================================================================================== -->
-    <section class=" ms:grid-cols-1 md:grid-cols-12 " style="padding-top: 80px">
+    <section class=" ms:grid-cols-1 md:grid-cols-12 " style="padding-top: 8px">
         <div id="carouselExampleCaptions " class="carousel slide" data-bs-ride="false">
 
             <div class="container d-flex justify-content-center align-items-center" style="padding-top: 30px;">
@@ -94,7 +61,7 @@
                     <form name="submit-to-google-sheet">
 
                         <div class="search-sec container">
-                            <h3> Search flights to Bangladesh</h3>
+                            <h2 style="color: rgb(0, 183, 255);"> Search flights to Bangladesh</h2>
                             <div class="row d-flex mb-4">
                                 <div class="col-lg-6 col-lg-12">
 
@@ -139,11 +106,11 @@
                     </form>
                 </div>
 
-                <!-- Search button -->r
+                <!-- Search button -->
                 <!--  Flight image -->
 
-                <div class="col-6  text-center d-none d-lg-block">
-                    <div class="">
+                <div class="col-6  text-center d-none d-lg-block shadow-lg  mb-5 bg-body rounded">
+                    <div class="rounded">
                         <img class="img-fluid" src="banner/New Project (9).jpg" alt="">
                     </div>
                 </div>
@@ -162,14 +129,14 @@
     <main>
         <section class="">
             <div class="">
-                <div class="d-md-block text-center  " style="padding: 30px  ">
+                <div class="d-md-block text-center  " style="padding-top :50px  ">
                     <h1>Popular flight destinations in Asia</h1>
                     <h6>If you're not interested in flights to Bangladesh, consider these other popular destinations in
                         Asia</h6>
 
                 </div>
             </div>
-            <div class="">
+            <div class="p-4">
                 <div class="container  overflow-hidden text-center">
                     <div class="row ">
                         <div class="col-lg-6  col-md-12">
@@ -298,7 +265,7 @@
                                     flight routes 
     =================================================================================== -->
 
-    <section class="container" style="padding-bottom: 30px; ">
+    <section class="container info" style="padding-bottom: 30px; ">
         <div class="d-md-block text-center  " style="padding: 30px  ">
             <h1>Cheapest flight routes to Bangladesh</h1>
             <h6>These routes have the cheapest flights to Bangladesh found by momondo users in United States</h6>
@@ -378,7 +345,7 @@
                                         Explore
     ==================================================================================== -->
     <header>
-        <section class="ms:grid-cols-1 lg:grid-cols-3 p-6">
+        <section class="ms:grid-cols-1 lg:grid-cols-3 p-6 pt-5 pb-5">
             <div class="card container bg-light  ">
                 <div class="row g-1">
                     <div class="col-md-6">
@@ -421,13 +388,14 @@
         <!-- =================================================================================
                                         Summary info 
         =================================================================================== -->
-        <section>
+        <section class="pb-5">
             <div class="d-md-block text-center  " style="padding: 30px  ">
                 <h1>About Flights to Bangladesh</h1>
                 <h6>Summary info about Bangladesh flight prices, duration and airlines</h6>
 
             </div>
-            <div class="container text-center" style="padding: 30px">
+            <div class="container text-center shadow-lg p-3 mb-5 bg-body rounded"
+                style="padding: 30px grid-template 17px;">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
                     <div class="col">
                         <div class="card-body">
@@ -485,7 +453,7 @@
         <!--=====================================================================================
                                     Register Now
         ======================================================================================-->
-        <section class="grid  ">
+        <!-- <section class="grid pb-5 ">
             <div class="container d-flex bg-info shadow" style=" padding: 40px; margin-top: 30px">
 
                 <div class="row">
@@ -539,11 +507,11 @@
         </section>
 
 
-    </header>
-    <!-- ================================================================================
+    </header> -->
+        <!-- ================================================================================
                                         somthing missing not work
     =================================================================================== -->
-    <!-- <div>
+        <!-- <div>
         <div class="toast-container position-static">
             <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
                 <div class="toast-header">
@@ -569,236 +537,311 @@
                 </div>
             </div>
         </div> -->
-    <!--=========================================================================================
+
+        <!-- =============================================================================================
+                                            news
+=============================================================================================== -->
+        <section class="container  ">
+            <div class="d-md-block text-center  " style="padding: 30px  ">
+                <h1>Latest News</h1>
+
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4  rounded">
+                <div class="col">
+
+                    <div class="card h-100">
+                        <img src="logo/img-removebg-preview.png" class="card-img-top" alt="..." width="190" height="82">
+
+                        <div class="card-body">
+
+                            <p class="card-text  "> <a class="text-decoration-none" href="">চীনের গুয়াংজু রুটে বিমানের
+                                    পরবর্তী
+                                    ফ্লাইটের টিকেট
+                                    বিক্রয় শুরু ...</a>
+
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 10 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="logo/img-removebg-preview.png" class="card-img-top" alt="..." width="190" height="82">
+
+                        <div class="card-body">
+
+                            <p class="card-text">
+                                <a class="text-decoration-none" href="">চীনের রাষ্ট্রদূতের সাথে বিমানের এমডির সাক্ষাৎ,
+                                    গুয়াংজু রুটে চলবে যাত্রীবাহী
+                                    ফ্লাইট ...</a>
+
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 23 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="logo/img-removebg-preview.png" class="card-img-top" alt="..." width="190" height="82">
+
+                        <div class="card-body">
+
+                            <p class="card-text">
+                                <a class="text-decoration-none" href=""> বিমান বাংলাদেশ এয়ারলাইন্স কর্তৃক যথাযোগ্য
+                                    মর্যাদায় জাতীয় শোক দিবস পালন
+                                    ...</a>
+
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 30 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=========================================================================================
                                    planning your trip
     ======================================================================================== -->
-    <div>
-        <div class="container text-center ms:grid-cols-1 lg:grid-cols-3" style="padding: 40px;">
-            <h1>Start planning your trip to Bangladesh</h1>
-            <p>Start planning your trip today
-                Get an overview of the top hotels in the most popular neighborhoods of Bangladesh</p>
+        <div>
+            <div class="container text-center ms:grid-cols-1 lg:grid-cols-3" style="padding: 40px;">
+                <h1>Start planning your trip to Bangladesh</h1>
+                <p>Start planning your trip today
+                    Get an overview of the top hotels in the most popular neighborhoods of Bangladesh</p>
+            </div>
         </div>
-    </div>
-    <!--=============================================================================================
+        <!--=============================================================================================
                                          Hotels in
     ==========================================================================================-->
-    <section>
-        <div class="container ms:grid-cols-1 md:grid-cols-2">
-            <div class="row justify-content-center " style="gap: 17px">
-                <div class="card col-3 shadow p-3 mb-5 bg-light rounded" style="width: 17rem;">
-                    <img src="tour/img 1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a class=" text-decoration-none" href="">
-                            <p>Hotels in</p>
-                            <h4>Cox’s Bāzār</h4>
-                        </a>
+        <section>
+            <div class="container ms:grid-cols-1 md:grid-cols-2">
+                <div class="row justify-content-center " style="gap: 17px">
+                    <div class="card col-3 shadow p-3 mb-5 bg-light rounded" style="width: 17rem;">
+                        <img src="tour/img 1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a class=" text-decoration-none" href="">
+                                <p>Hotels in</p>
+                                <h4>Cox’s Bāzār</h4>
+                            </a>
 
+                        </div>
                     </div>
-                </div>
-                <div class="card col-3 shadow p-3 mb-5 bg-light rounded" style="width: 17rem;">
-                    <img src="tour/img 2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a class=" text-decoration-none" href="">
-                            <p>Hotels in</p>
-                        </a>
-                        <div>
-                            <h4>Khulna </h4>
+                    <div class="card col-3 shadow p-3 mb-5 bg-light rounded" style="width: 17rem;">
+                        <img src="tour/img 2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a class=" text-decoration-none" href="">
+                                <p>Hotels in</p>
+                            </a>
+                            <div>
+                                <h4>Khulna </h4>
+                            </div>
+
+
                         </div>
 
-
                     </div>
-
-                </div>
-                <div class="card col-3 shadow p-3 mb-5 bg-light rounded" style="width: 17rem;">
-                    <img src="tour/img 3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a class=" text-decoration-none" href="#">
-                            <p>Hotels in</p>
-                            <h4>Sylhet</h4>
-                        </a>
+                    <div class="card col-3 shadow p-3 mb-5 bg-light rounded" style="width: 17rem;">
+                        <img src="tour/img 3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a class=" text-decoration-none" href="#">
+                                <p>Hotels in</p>
+                                <h4>Sylhet</h4>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="card col-3 shadow p-3 mb-5 bg-light rounded" style="width: 17rem;">
-                    <img src="tour/img 4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <a class=" text-decoration-none" href="">
-                            <p>Hotels in</p>
-                            <h4>Rājshāhi</h4>
-                        </a>
+                    <div class="card col-3 shadow p-3 mb-5 bg-light rounded" style="width: 17rem;">
+                        <img src="tour/img 4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a class=" text-decoration-none" href="">
+                                <p>Hotels in</p>
+                                <h4>Rājshāhi</h4>
+                            </a>
+                        </div>
                     </div>
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item ">
+                                <a class="page-link">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav aria-label="Page navigation example">
-                    <ul class="pagination justify-content-center">
-                        <li class="page-item ">
-                            <a class="page-link">Previous</a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">Next</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-    </section>
-    <!--=========================================================================================
+        </section>
+        <!--=========================================================================================
                                     Questions   Accordion
     
     ======================================================================================== -->
-    <section>
-        <div class="container  text-center">
-            <h1>Useful information for your flight to Bangladesh</h1>
-            <p>Get up-to-date answers for some of the most frequently asked questions regarding flying to Bangladesh
-            </p>
-        </div>
-        <div class=" container">
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            What popular landmarks are in Bangladesh?
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Bangladesh is full of notable places to explore, many with significant historical value
-                            to
-                            the region and the world. Some of the most popular landmarks in Bangladesh are Laboni
-                            Beach,
-                            Shrine of Hazrat Shah Jalal, Dhaka Zoo, and Inani Beach, among many more.
+        <section class="pt-5">
+            <div class="container  text-center">
+                <h1>Useful information for your flight to Bangladesh</h1>
+                <p>Get up-to-date answers for some of the most frequently asked questions regarding flying to Bangladesh
+                </p>
+            </div>
+            <div class=" container">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What popular landmarks are in Bangladesh?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Bangladesh is full of notable places to explore, many with significant historical value
+                                to
+                                the region and the world. Some of the most popular landmarks in Bangladesh are Laboni
+                                Beach,
+                                Shrine of Hazrat Shah Jalal, Dhaka Zoo, and Inani Beach, among many more.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            What is the best airport to land at to visit Laboni Beach?
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Flying into Cox’s Bāzār Airport is typically the best way to visit Laboni Beach, since
-                            it is
-                            the closest airport to the area.
-                            Flights from Dhaka Airport to Cox’s Bāzār Airport are on average $185/pp from many major
-                            airlines.
-                            Flights from Dhaka Airport to Cox’s Bāzār Airport are on average $185/pp from many major
-                            airlines.
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What is the best airport to land at to visit Laboni Beach?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Flying into Cox’s Bāzār Airport is typically the best way to visit Laboni Beach, since
+                                it is
+                                the closest airport to the area.
+                                Flights from Dhaka Airport to Cox’s Bāzār Airport are on average $185/pp from many major
+                                airlines.
+                                Flights from Dhaka Airport to Cox’s Bāzār Airport are on average $185/pp from many major
+                                airlines.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            What is the cheapest flight to Bangladesh from Dhaka Airport?
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            The best prices found on momondo for flights to Bangladesh are:
-                            $4 per person with Juneyao Airlines
-                            $54 per person with US-Bangla Airlines
-                            $55 per person with Regent Airways
-                            Users looking to fly to Bangladesh from Dhaka Airport typically pay $226 per person on
-                            average. This price may vary based on many factors, but we find that the majority of our
-                            users can rely on this price to set a baseline.
-                            Users looking to fly to Bangladesh from Dhaka Airport typically pay $226 per person on
-                            average. This price may vary based on many factors, but we find that the majority of our
-                            users can rely on this price to set a baseline.
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is the cheapest flight to Bangladesh from Dhaka Airport?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The best prices found on momondo for flights to Bangladesh are:
+                                $4 per person with Juneyao Airlines
+                                $54 per person with US-Bangla Airlines
+                                $55 per person with Regent Airways
+                                Users looking to fly to Bangladesh from Dhaka Airport typically pay $226 per person on
+                                average. This price may vary based on many factors, but we find that the majority of our
+                                users can rely on this price to set a baseline.
+                                Users looking to fly to Bangladesh from Dhaka Airport typically pay $226 per person on
+                                average. This price may vary based on many factors, but we find that the majority of our
+                                users can rely on this price to set a baseline.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingfour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                            What is the best day of the week to fly to Bangladesh?
-                        </button>
-                    </h2>
-                    <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            The best day of the week to fly to Bangladesh is Saturday due to prices being at their
-                            lowest. Flying out on a Tuesday should be a backup plan since this day tends to be less
-                            expensive as well. Friday, on the other hand, is the most expensive day to fly to
-                            Bangladesh.
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingfour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                What is the best day of the week to fly to Bangladesh?
+                            </button>
+                        </h2>
+                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The best day of the week to fly to Bangladesh is Saturday due to prices being at their
+                                lowest. Flying out on a Tuesday should be a backup plan since this day tends to be less
+                                expensive as well. Friday, on the other hand, is the most expensive day to fly to
+                                Bangladesh.
 
 
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--=========================================================================================
+        </section>
+        <!--=========================================================================================
                                         companies
         ===================================================================================== -->
-    <section class="company " style="padding-bottom: 30px">
-        <div class="container text-center " style="padding: 30px">
-            <p> <strong> Momondo is part of Booking Holdings Inc., the world leader in online travel & related
-                    services.
-                </strong></p>
-        </div>
-        <div class="  ">
-            <div class="container text-center">
-                <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-                    <div class="col">
-                        <div class="p-3 border bg-light"><a href="#"><img src="commapny/New Project (13).jpg" alt="">
-                            </a>
+        <section class="company pt-5 " style="padding-bottom: 50px">
+            <div class="container text-center " style="padding: 30px">
+                <h3> <strong> Momondo is part of Booking Holdings Inc., the world leader in online travel & related
+                        services.
+                    </strong></h3>
+            </div>
+            <div class="  ">
+                <div class="container text-center">
+                    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                        <div class="col">
+                            <div class="p-3 border bg-light"><a href="#"><img src="commapny/New Project (13).jpg"
+                                        alt="">
+                                </a>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="p-3 border bg-light"> <a href="#"><img src="commapny/New Project (14).jpg" alt="">
-                            </a>
+                        <div class="col">
+                            <div class="p-3 border bg-light"> <a href="#"><img src="commapny/New Project (14).jpg"
+                                        alt="">
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="p-3 border bg-light"> <a href="#"><img src="commapny/New Project (15).jpg" alt="">
-                            </a></div>
-                    </div>
-                    <div class="col">
-                        <div class="p-3 border bg-light"> <a href="#"><img src="commapny/New Project (16).jpg" alt="">
-                            </a></div>
-                    </div>
-                    <div class="col">
-                        <div class="p-3 border bg-light"> <a href="#"><img src="commapny/New Project (17).jpg" alt="">
-                            </a></div>
-                    </div>
+                        <div class="col">
+                            <div class="p-3 border bg-light"> <a href="#"><img src="commapny/New Project (15).jpg"
+                                        alt="">
+                                </a></div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 border bg-light"> <a href="#"><img src="commapny/New Project (16).jpg"
+                                        alt="">
+                                </a></div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 border bg-light"> <a href="#"><img src="commapny/New Project (17).jpg"
+                                        alt="">
+                                </a></div>
+                        </div>
 
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </section>
-    <!-- ======================================================================================
+        </section>
+
+        <!-- ======================================================================================
                                         back end java script
     ========================================================================================= -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+            </script>
+
         </script>
 
-    </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbx-YbJZUD1Sy00d5G6jonAqxnS0_lXlImyZw30UmLUYggtgxv4ZKmepIVCj7FoMuKVd9g/exec'
 
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbx-YbJZUD1Sy00d5G6jonAqxnS0_lXlImyZw30UmLUYggtgxv4ZKmepIVCj7FoMuKVd9g/exec'
+            const form = document.forms['submit-to-google-sheet']
 
-        const form = document.forms['submit-to-google-sheet']
-
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => console.log('Success!', response))
-                .catch(error => console.error('Error!', error.message))
-        })
-    </script>
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => console.log('Success!', response))
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
 </body>
 <!-- ==================================== footer========================================= -->
 <footer>
